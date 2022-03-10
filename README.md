@@ -1,7 +1,7 @@
 # FetchRewardsExercise
 Exercise for Fetch Rewards interview process.
 
-This app uses a MVVM architecture with an added layer of Use Cases.
+This app uses a MVVM architecture with an added layer of Use Cases. It was built in latest version of Android Studio (Bumblebee 2021.1.1 Patch 2). It also uses Gradle Version 7.2 and Android Gradle Plugin Version 7.1.2.
 
 The app is structured as data, di, domain, presentation.
 
