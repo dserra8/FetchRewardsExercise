@@ -18,4 +18,6 @@ For testing, I create a fake repository to avoid calling the real api.
 For unit tests, I test the only use case with this fake repository.
 
 For instrumented tests, I use dagger hilt to inject the fake repository and use case into my view model and then do some simple fragment tests.
+
+Only major thing missing is no persistance data storage. If I would use one, it would be Room.
   
