@@ -15,7 +15,7 @@ The app is structured as data, di, domain, presentation.
   
 For testing, I create a fake repository to avoid calling the real api.
 
-For Unit tests, I test the only use case with this fake repository.
+For unit tests, I test the only use case with this fake repository.
 
-For Instrumented tests, I use dagger hilt to inject the fake repository and use case into my view model and then do some simple fragment tests.
+For instrumented tests, I use dagger hilt to inject the fake repository and use case into my view model and then do some simple fragment tests.
   
